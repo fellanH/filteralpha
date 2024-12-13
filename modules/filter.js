@@ -13,6 +13,7 @@ export class Filter {
   }
 
   applyFilters() {
+    document.querySelector("#load-more-container").classList.add("hide");
     const jobs = document.querySelectorAll('[stormfors="item"]');
     let visibleJobs = 0;
 

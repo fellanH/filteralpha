@@ -34,6 +34,7 @@ export function hideEmptyState() {
 
 export function showEmptyState() {
   document.querySelector(".empty_state").classList.remove("hide");
+  document.querySelector("#load-more-container").classList.add("hide");
 }
 
 export function formatLongDescription(description) {
