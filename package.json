@@ -1,0 +1,11 @@
+{
+  "name": "career-filter",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "live-server src --port=5500 --no-browser --cors"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
