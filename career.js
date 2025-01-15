@@ -25,6 +25,7 @@ var filters = [
 ];
 
 enableScroll();
+
 var jobs = await fetchData();
 var italianJobs = await fetchItalianData();
 

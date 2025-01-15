@@ -65,6 +65,7 @@ function createFilter(name, array, property, node) {
 }
 
 function createJob(data, node, filters) {
+  console.log("data", data);
   const jobNode = node.cloneNode(true);
   const drawer = jobNode.querySelector(`[stormfors="drawer"]`);
 
@@ -94,6 +95,7 @@ function createJob(data, node, filters) {
   jobNode.querySelector(`[drawer="brand"]`).textContent = data.project_label;
   jobNode.querySelector(`[drawer="location"]`).textContent = data.location;
   jobNode.querySelector(`[drawer="type"]`).textContent = data.contract_type;
+  jobNode.querySelector(`[drawer="content"]`).innerHTML = data.description;
 
   jobNode.addEventListener("click", (e) => {
     disableScroll();
