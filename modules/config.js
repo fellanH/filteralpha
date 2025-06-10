@@ -9,7 +9,7 @@ export const IMAGES = {
   miramis:
     "https://cdn.prod.website-files.com/671a1cb360117ed1b3e3d64a/67534780d64e7e95acc6b563_Miramis%20Icon.svg",
   torre:
-    "https://cdn.prod.website-files.com/671a1cb360117ed1b3e3d64a/675336a8807760535c59753f_Torre%20Cala%20Icon.svg",
+    "https://cdn.prod.website-files.com/671a1cb360117ed1b3e3d64a/682ca0395ac35328bb8a61f7_logo%20tcp%20tondo.jpg",
   laroqqa:
     "https://cdn.prod.website-files.com/671a1cb360117ed1b3e3d64a/675348f19debe3c74c872d24_La%20Roqqa%20icon.svg",
 };
